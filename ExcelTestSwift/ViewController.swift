@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  ExcelTest
 //
-//  Created by Mac on 10/23/19.
+//  Created by Jamshed Alam on 10/23/19.
 //  Copyright © 2019 Mac. All rights reserved.
 //
 
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        
+        // Prepare data for excel sheet
         for i in 0..<5 {
             task = Task()
             task.name = "Jamshed, \(i+1)"
