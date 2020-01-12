@@ -14,6 +14,7 @@
 		044D318723601F2800439865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044D318523601F2800439865 /* LaunchScreen.storyboard */; };
 		044D319223601F2800439865 /* ExcelTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D319123601F2800439865 /* ExcelTestTests.swift */; };
 		044D319D23601F2800439865 /* ExcelTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D319C23601F2800439865 /* ExcelTestUITests.swift */; };
+		044D31AB23601FB000439865 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D31AA23601FB000439865 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		044D317923601F2400439865 /* ExcelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044D317923601F2400439865 /* ExcelTestSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcelTestSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044D317C23601F2400439865 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		044D317E23601F2400439865 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		044D318123601F2400439865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		044D318323601F2800439865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044D318623601F2800439865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		044D318823601F2800439865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		044D318D23601F2800439865 /* ExcelTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcelTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044D318D23601F2800439865 /* ExcelTestSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcelTestSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044D319123601F2800439865 /* ExcelTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelTestTests.swift; sourceTree = "<group>"; };
 		044D319323601F2800439865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		044D319823601F2800439865 /* ExcelTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcelTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044D319823601F2800439865 /* ExcelTestSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcelTestSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044D319C23601F2800439865 /* ExcelTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelTestUITests.swift; sourceTree = "<group>"; };
 		044D319E23601F2800439865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044D31AA23601FB000439865 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,7 @@
 		044D317023601F2400439865 = {
 			isa = PBXGroup;
 			children = (
-				044D317B23601F2400439865 /* ExcelTest */,
+				044D317B23601F2400439865 /* ExcelTestSwift */,
 				044D319023601F2800439865 /* ExcelTestTests */,
 				044D319B23601F2800439865 /* ExcelTestUITests */,
 				044D317A23601F2400439865 /* Products */,
@@ -87,24 +89,25 @@
 		044D317A23601F2400439865 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				044D317923601F2400439865 /* ExcelTest.app */,
-				044D318D23601F2800439865 /* ExcelTestTests.xctest */,
-				044D319823601F2800439865 /* ExcelTestUITests.xctest */,
+				044D317923601F2400439865 /* ExcelTestSwift.app */,
+				044D318D23601F2800439865 /* ExcelTestSwiftTests.xctest */,
+				044D319823601F2800439865 /* ExcelTestSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		044D317B23601F2400439865 /* ExcelTest */ = {
+		044D317B23601F2400439865 /* ExcelTestSwift */ = {
 			isa = PBXGroup;
 			children = (
 				044D317C23601F2400439865 /* AppDelegate.swift */,
 				044D317E23601F2400439865 /* ViewController.swift */,
+				044D31AA23601FB000439865 /* Task.swift */,
 				044D318023601F2400439865 /* Main.storyboard */,
 				044D318323601F2800439865 /* Assets.xcassets */,
 				044D318523601F2800439865 /* LaunchScreen.storyboard */,
 				044D318823601F2800439865 /* Info.plist */,
 			);
-			path = ExcelTest;
+			path = ExcelTestSwift;
 			sourceTree = "<group>";
 		};
 		044D319023601F2800439865 /* ExcelTestTests */ = {
@@ -128,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		044D317823601F2400439865 /* ExcelTest */ = {
+		044D317823601F2400439865 /* ExcelTestSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 044D31A123601F2800439865 /* Build configuration list for PBXNativeTarget "ExcelTest" */;
+			buildConfigurationList = 044D31A123601F2800439865 /* Build configuration list for PBXNativeTarget "ExcelTestSwift" */;
 			buildPhases = (
 				044D317523601F2400439865 /* Sources */,
 				044D317623601F2400439865 /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = ExcelTest;
+			name = ExcelTestSwift;
 			productName = ExcelTest;
-			productReference = 044D317923601F2400439865 /* ExcelTest.app */;
+			productReference = 044D317923601F2400439865 /* ExcelTestSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		044D318C23601F2800439865 /* ExcelTestTests */ = {
+		044D318C23601F2800439865 /* ExcelTestSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 044D31A423601F2800439865 /* Build configuration list for PBXNativeTarget "ExcelTestTests" */;
+			buildConfigurationList = 044D31A423601F2800439865 /* Build configuration list for PBXNativeTarget "ExcelTestSwiftTests" */;
 			buildPhases = (
 				044D318923601F2800439865 /* Sources */,
 				044D318A23601F2800439865 /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				044D318F23601F2800439865 /* PBXTargetDependency */,
 			);
-			name = ExcelTestTests;
+			name = ExcelTestSwiftTests;
 			productName = ExcelTestTests;
-			productReference = 044D318D23601F2800439865 /* ExcelTestTests.xctest */;
+			productReference = 044D318D23601F2800439865 /* ExcelTestSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		044D319723601F2800439865 /* ExcelTestUITests */ = {
+		044D319723601F2800439865 /* ExcelTestSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 044D31A723601F2800439865 /* Build configuration list for PBXNativeTarget "ExcelTestUITests" */;
+			buildConfigurationList = 044D31A723601F2800439865 /* Build configuration list for PBXNativeTarget "ExcelTestSwiftUITests" */;
 			buildPhases = (
 				044D319423601F2800439865 /* Sources */,
 				044D319523601F2800439865 /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				044D319A23601F2800439865 /* PBXTargetDependency */,
 			);
-			name = ExcelTestUITests;
+			name = ExcelTestSwiftUITests;
 			productName = ExcelTestUITests;
-			productReference = 044D319823601F2800439865 /* ExcelTestUITests.xctest */;
+			productReference = 044D319823601F2800439865 /* ExcelTestSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 044D317423601F2400439865 /* Build configuration list for PBXProject "ExcelTest" */;
+			buildConfigurationList = 044D317423601F2400439865 /* Build configuration list for PBXProject "ExcelTestSwift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				044D317823601F2400439865 /* ExcelTest */,
-				044D318C23601F2800439865 /* ExcelTestTests */,
-				044D319723601F2800439865 /* ExcelTestUITests */,
+				044D317823601F2400439865 /* ExcelTestSwift */,
+				044D318C23601F2800439865 /* ExcelTestSwiftTests */,
+				044D319723601F2800439865 /* ExcelTestSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044D317F23601F2400439865 /* ViewController.swift in Sources */,
+				044D31AB23601FB000439865 /* Task.swift in Sources */,
 				044D317D23601F2400439865 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		044D318F23601F2800439865 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 044D317823601F2400439865 /* ExcelTest */;
+			target = 044D317823601F2400439865 /* ExcelTestSwift */;
 			targetProxy = 044D318E23601F2800439865 /* PBXContainerItemProxy */;
 		};
 		044D319A23601F2800439865 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 044D317823601F2400439865 /* ExcelTest */;
+			target = 044D317823601F2400439865 /* ExcelTestSwift */;
 			targetProxy = 044D319923601F2800439865 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,7 +438,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UF2HSF292Z;
-				INFOPLIST_FILE = ExcelTest/Info.plist;
+				INFOPLIST_FILE = ExcelTestSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +457,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UF2HSF292Z;
-				INFOPLIST_FILE = ExcelTest/Info.plist;
+				INFOPLIST_FILE = ExcelTestSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,7 +487,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExcelTest.app/ExcelTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExcelTestSwift.app/ExcelTestSwift";
 			};
 			name = Debug;
 		};
@@ -502,7 +508,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExcelTest.app/ExcelTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExcelTestSwift.app/ExcelTestSwift";
 			};
 			name = Release;
 		};
@@ -549,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		044D317423601F2400439865 /* Build configuration list for PBXProject "ExcelTest" */ = {
+		044D317423601F2400439865 /* Build configuration list for PBXProject "ExcelTestSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				044D319F23601F2800439865 /* Debug */,
@@ -558,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		044D31A123601F2800439865 /* Build configuration list for PBXNativeTarget "ExcelTest" */ = {
+		044D31A123601F2800439865 /* Build configuration list for PBXNativeTarget "ExcelTestSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				044D31A223601F2800439865 /* Debug */,
@@ -567,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		044D31A423601F2800439865 /* Build configuration list for PBXNativeTarget "ExcelTestTests" */ = {
+		044D31A423601F2800439865 /* Build configuration list for PBXNativeTarget "ExcelTestSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				044D31A523601F2800439865 /* Debug */,
@@ -576,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		044D31A723601F2800439865 /* Build configuration list for PBXNativeTarget "ExcelTestUITests" */ = {
+		044D31A723601F2800439865 /* Build configuration list for PBXNativeTarget "ExcelTestSwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				044D31A823601F2800439865 /* Debug */,

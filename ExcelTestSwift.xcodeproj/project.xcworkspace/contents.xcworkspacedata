@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ExcelTest.xcodeproj">
+      location = "self:/Users/mac/Desktop/old iMac/Test Project/ExcelTest/ExcelTestSwift.xcodeproj">
    </FileRef>
 </Workspace>
