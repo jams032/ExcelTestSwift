@@ -1,5 +1,5 @@
 # ExcelTestSwift
-Implemention of Basic Structure of CSV/xls export.
+Basic Implementation of creating a XLS/CSV export in iOS-Swift
 
 Creating excel or CSV format file is a tricky but easy possible solution in iOS. 
 
